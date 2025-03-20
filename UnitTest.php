@@ -1,6 +1,8 @@
 <?php
-class Example_test extends PHPUnit_Framework_TestCase {
- public function testExample() {
- $this->assertTrue(true);
- }
+use PHPUnit\Framework\TestCase;
+
+class UnitTest extends TestCase { 
+	public function testExample() {
+		$this->assertTrue(true);
+	}
 }
